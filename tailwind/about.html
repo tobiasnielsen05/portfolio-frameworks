@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Om mig - Tailwind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="scroll-smooth">
+
+<nav class="fixed top-0 w-full p-1 z-50">
+  <div class="mx-auto px-6 flex justify-between items-center h-16">
+
+    <a href="index.html" class="font-bold text-lg">TN</a>
+
+    <div class="hidden md:flex gap-8 items-center">
+      <a href="index.html">Hjem</a>
+      <a href="index.html#projects">Projekter</a>
+      <a href="#contact"
+         class="button px-4 py-2">
+        Kontakt
+      </a>
+    </div>
+
+  </div>
+</nav>
+
+<section class="py-16">
+  <div class="text-center mt-10 mb-20">
+    <h1 class="text-4xl font-bold mb-4">Om mig</h1>
+  <p class="muted-text">
+    Webudviklingsstuderende med interesse for backend og systemforståelse.
+  </p>
+  </div>
+  <div class="max-w-6xl mx-auto px-3 grid md:grid-cols-2 gap-12 items-center">
+
+    <div>
+      <h2 class="text-4xl font-bold mb-8">
+        Tobias Nielsen | 21 år
+      </h2>
+
+      <p class="mb-4">
+        Jeg er webudviklingsstuderende på Zealand og interesserer mig særligt for backend-udvikling og den logik, der får systemer til at fungere bag facaden.
+      </p>
+
+      <p class="mb-4">
+        Jeg kan godt lide at arbejde struktureret og forstå, hvordan data og funktionalitet hænger sammen. For mig handler udvikling ikke kun om at få noget til at virke – men om at bygge det på en måde, der giver mening og kan vedligeholdes.
+      </p>
+
+      <p>
+        Gennem studiet har jeg arbejdet med både frontend og backend, og jeg trives med at se hele processen fra idé til færdigt produkt.
+      </p>
+    </div>
+
+    <div class="flex justify-center">
+      <img src="./assets/images/mig.png"class="profile rounded-2xl shadow-2xl max-w-sm" alt="Portræt af Tobias Nielsen">
+    </div>
+
+  </div>
+</section>
+
+
+<section class="py-10">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8">
+    <div id="skills" class="rounded-2xl p-6">
+      <h3 class="text-xl font-bold mb-4">Information</h3>
+      <ul class="space-y-2">
+        <li><strong>Uddannelse:</strong> PBA Webudvikling</li>
+        <li><strong>Skole:</strong> Zealand</li>
+        <li><strong>Interesse:</strong> Front- & backend</li>
+        <li><strong>Status:</strong> Søger praktik</li>
+      </ul>
+    </div>
+
+
+    <div id="skills" class="rounded-2xl p-6">
+      <h3 class="text-xl font-bold mb-4">Faglige fokusområder</h3>
+      <div class="grid grid-cols-2 gap-4">
+        <ul class="space-y-2">
+          <li>Systemforståelse</li>
+          <li>Databasestruktur</li>
+          <li>Backend-logik</li>
+          <li>Vedligeholdelse</li>
+        </ul>
+
+        <ul class="space-y-2">
+          <li>Responsivt design</li>
+          <li>Struktureret kode</li>
+          <li>Git & versionsstyring</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="py-20 text-center">
+  <h2 class="text-2xl font-bold mb-2">Kontakt</h2>
+  <p class="muted-text mb-10">
+    Er du interesseret i at samarbejde eller høre mere?
+  </p>
+  <a href="mailto:tobni05@gmail.com"
+     id="text" class="button px-6 py-3 rounded-xl font-bold">
+    Send en mail
+  </a>
+</section>
+
+<footer class="border-t border-gray-800 py-10 text-center text-gray-500 text-sm">
+  © 2026 Tobias Nielsen
+</footer>
+
+</body>
+</html>

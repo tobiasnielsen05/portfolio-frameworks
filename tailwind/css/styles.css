@@ -1,0 +1,38 @@
+body {
+    background-color: #0b0f19;
+}
+
+nav {
+    background-color: #111827;
+    font-weight: bold;
+    color: #E5E7EB;
+}
+
+p, h1, h2, h3, h4, h5, h6, li, ul, ol {
+    color: #E5E7EB;
+}
+
+#text {
+    color: #E5E7EB;
+}
+
+.muted-text {
+    color: #9CA3AF;
+}
+
+.profile {
+    filter: grayscale(100%);
+}
+
+.button {
+    background-color: #3B82F6;
+    border-radius: 5px;
+}
+
+.project {
+    background-color: #111827;
+}
+
+#skills {
+    background-color: #111827;
+}

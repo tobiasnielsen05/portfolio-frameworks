@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Tailwind</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="scroll-smooth">
+
+    <nav class="fixed top-0 w-full p-1 z-50">
+      <div class="mx-auto px-6 flex justify-between items-center h-16">
+        <a href="index.html" class="font-bold text-lg">TN</a>
+          
+      <div class="hidden md:flex gap-8 items-center">
+        <a href="#projects">Projekter</a>
+        <a href="about.html">Om mig</a>
+        <a href="#contact" class="button px-4 py-2">Kontakt</a>
+    </div>
+
+  </div>
+</nav>
+
+<section class="min-h-[70vh] flex items-center">
+  <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+    <div>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">
+        Tobias Nielsen
+      </h1>
+
+      <h2 class="muted-text text-lg mb-10">
+        Webudviklingsstuderende på Zealand
+      </h2>
+
+      <p class="mb-6">
+        Jeg er webudviklingsstuderende på Zealand med en god forståelse
+          for både frontend og backend, men med en interesse for databaser
+          og systemopbygning.
+      </p>
+      <p>
+        <a href="about.html" class="text-blue-500 font-bold">Læs mere om mig her</a>
+      </p>
+    </div>
+
+    <div class="flex justify-center profile">
+      <img src="./assets/images/mig.png"
+           class="rounded-2xl shadow-2xl max-w-sm"
+           alt="Billede af Tobias Nielsen">
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="max-w-6xl mx-auto px-6">
+
+    <div class="text-center mb-12">
+      <h2 class="text-3xl font-bold">Projekter</h2>
+      <p class="muted-text mt-3">Udvalgte projekter jeg har arbejdet med</p>
+    </div>
+
+    <div class="flex justify-center">
+      <div class="project rounded-2xl p-5 max-w-md">
+
+        <img src="./assets/images/gronfremtid.svg" class="mb-6 justify-self-center" alt="Grøn Fremtid logo">
+
+        <h3 class="text-xl font-bold mb-3">Grøn Fremtid</h3>
+
+        <p class="mb-4 muted-text">
+           Udviklet som 1. semester eksamensprojekt med fokus på struktur, semantisk HTML og responsivt design. 
+           Projektet havde til formål at skabe en informativ platform om biodiversitet og bæredygtig havepraksis, med vægt på brugervenlighed og klar informationsarkitektur.
+        </p>
+
+        <p class="text-sm mb-6">
+          <strong>Teknologier:</strong> Vue 3, MySQL, JavaScript
+        </p>
+
+        <div class="flex gap-3 font-bold">
+          <a href="https://github.com/tobiasnielsen05/planter_og_insekter"
+             id="text" class="px-4 py-2 border rounded-lg text-sm">
+            GitHub
+          </a>
+
+          <a href="https://groenfremtid.dk"
+             class="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-sm">
+            Live Demo
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="py-20">
+  <div class="max-w-6xl mx-auto px-6">
+    <div class="mb-12 text-center">
+      <h2 class="text-3xl font-bold">Kompetencer</h2>
+      <p class="muted-text mt-3 mb-10">
+        Her er nogle af de teknologier og værktøjer, jeg har erfaring med gennem mit studie og projekter.
+      </p>
+    </div>
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <div id="skills" class="p-6 rounded-2xl">
+        <h4 class="font-bold mb-4">Frontend</h4>
+        <ul class="space-y-2">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Vue 3</li>
+          <li>Brugervenlighed</li>
+          <li>Responsivt design</li>
+        </ul>
+      </div>
+
+      <div id="skills" class="p-6 rounded-2xl">
+        <h4 class="font-bold mb-4">Backend</h4>
+        <ul class="space-y-2">
+          <li>Grundlæggende server-side logik</li>
+          <li>MySQL</li>
+          <li>PHP</li>
+          <li>API-Forståelse</li>
+        </ul>
+      </div>
+
+      <div id="skills" class="p-6 rounded-2xl">
+        <h4 class="font-bold mb-4">Tools</h4>
+        <ul class="space-y-2">
+          <li>Git & GitHub</li>
+          <li>VS Code</li>
+          <li>PhpStorm</li>
+          <li>Sass</li>
+          <li>Bootstrap, Bulma & Tailwind CSS</li>
+          <li>Figma</li>
+        </ul>
+      </div>
+
+    </div>
+</section>
+
+<section id="contact" class="pb-20 text-center">
+  <h2 class="text-2xl font-bold mb-2">Kontakt</h2>
+  <p class="text-gray-400 mb-10">
+    Er du interesseret i at samarbejde?
+  </p>
+  <a href="mailto:tobni05@gmail.com"
+     class="bg-blue-600 px-6 py-3 rounded-xl text-white hover:bg-blue-700 transition">
+    Send en mail
+  </a>
+</section>
+
+<footer class="border-t border-gray-800 py-10 text-center text-gray-500 text-sm">
+  © 2026 Tobias Nielsen
+</footer>
+</body>
+</html>

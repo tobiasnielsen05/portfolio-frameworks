@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bulma Portfolio</title>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+<nav class="navbar is-dark is-fixed-top has-text-weight-bold" role="navigation">
+  <div class="container">
+
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        TN
+      </a>
+
+      <a role="button"
+         class="navbar-burger"
+         aria-label="menu"
+         aria-expanded="false"
+         data-target="navbarBasic">
+        <span></span>
+        <span></span>
+        <span></span>
+      </a>
+    </div>
+
+    <div id="navbarBasic" class="navbar-menu">
+      <div class="navbar-end haws-text-weight-bold">
+
+        <a href="#projects" class="navbar-item">
+          Projekter
+        </a>
+
+        <a href="about.html" class="navbar-item">
+          Om Mig
+        </a>
+
+        <div class="navbar-item">
+          <a href="#contact" class="button has-text-weight-bold">
+            Kontakt
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+<section class="section">
+  <div class="container">
+
+    <div class="columns is-vcentered">
+
+      <!-- Text -->
+      <div class="column is-6">
+        <h1 class="title">
+          Tobias Nielsen
+        </h1>
+
+        <h2 class="subtitle mt-3">
+          Webudviklingsstuderende på Zealand
+        </h2>
+
+        <p class="">
+          Jeg er webudviklingsstuderende med interesse for både frontend og backend,
+          men særligt backend og systemopbygning.
+        </p>
+
+        <p class="mt-5">
+          <a href="about.html" class="has-text-weight-bold">Læs mere om mig her</a>
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="column is-6 has-text-centered">
+          <figure class="image is-inline-block profile-figure">
+          <img src="./assets/images/mig.png"
+               alt="Portræt af Tobias Nielsen">
+        </figure>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="section mt-6">
+  <div class="container">
+
+    <!-- Title -->
+    <div class="has-text-centered mb-6">
+      <h2 class="title is-3">Projekter</h2>
+      <p class="subtitle is-6 has-text-grey">
+        Udvalgte projekter jeg har arbejdet med
+      </p>
+    </div>
+
+    <!-- Columns -->
+    <div class="columns is-centered">
+      
+      <div class="column is-4">
+
+        <div class="box project-card">
+
+          <figure class="image mb-4">
+            <img src="./assets/images/gronfremtid.svg"
+                 alt="Billede af projekt grøn fremtid">
+          </figure>
+
+          <h5 class="title is-5">Grøn Fremtid</h5>
+
+          <p class="has-text-grey mb-4">
+            Udviklet som 1. semester eksamensprojekt med fokus på struktur,
+            semantisk HTML og responsivt design. Projektet havde til formål
+            at skabe en informativ platform om biodiversitet.
+          </p>
+
+          <p class="is-size-6 mb-5">
+            <strong>Teknologier:</strong> Vue 3, MySQL, JavaScript
+          </p>
+
+          <div class="buttons">
+            <a href="https://github.com/tobiasnielsen05/planter_og_insekter"
+               class="button is-outlined is-light is-big">
+              GitHub
+            </a>
+
+            <a href="https://groenfremtid.dk"
+               class="button has-text-weight-bold">
+              Live Demo
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section id="skills" class="section">
+  <div class="container">
+
+    <!-- Titel -->
+    <div class="has-text-centered mb-6">
+      <h2 class="title is-3">Kompetencer</h2>
+      <p class="subtitle is-6 has-text-grey">
+        Teknologier og værktøjer jeg arbejder med
+      </p>
+    </div>
+
+    <div class="columns">
+
+      <!-- Frontend -->
+      <div class="column">
+        <div class="box skill-card">
+          <h5 class="title is-5">Frontend</h5>
+          <ul>
+            <li class="mb-1">HTML</li>
+            <li class="mb-1">CSS</li>
+            <li class="mb-1">JavaScript</li>
+            <li class="mb-1">Vue 3</li>
+            <li class="mb-1">Brugervenlighed</li>
+            <li>Responsivt design</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="column">
+        <div class="box skill-card">
+          <h5 class="title is-5">Backend</h5>
+          <ul>
+            <li class="mb-1">Grundlæggende server-side logik</li>
+            <li class="mb-1">MySQL</li>
+            <li class="mb-1">PHP</li>
+            <li>API-forståelse</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="column">
+        <div class="box skill-card">
+          <h5 class="title is-5">Værktøjer</h5>
+          <ul>
+            <li class="mb-1">Git & GitHub</li>
+            <li class="mb-1">VS Code</li>
+            <li class="mb-1">PhpStorm</li>
+            <li class="mb-1">Node.js</li>
+            <li class="mb-1">Figma</li>
+            <li class="mb-1">Bootstrap, Bulma & Tailwind</li>
+            <li>Sass</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="section has-text-centered">
+  <div class="container">
+
+    <h2 class="title is-3 mb-2">Kontakt</h2>
+    <p class="subtitle is-6 has-text-grey mb-5">
+      Er du interesseret i at høre mere eller samarbejde?
+    </p>
+
+    <div class="buttons is-centered">
+      <a href="mailto:tobni05@gmail.dk"
+         class="button has-text-weight-bold">
+        Send en mail
+    </a>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer custom-footer">
+  <div class="content has-text-centered">
+
+    <p class="has-text-weight-bold">
+      Tobias Nielsen
+    </p>
+
+    <p class="is-size-7 has-text-grey">
+      Webudviklingsstuderende med interesse for backend og systemforståelse.
+    </p>
+
+    <p class="is-size-7 has-text-grey-light">
+      © 2026 Tobias Nielsen
+    </p>
+
+  </div>
+</footer>
+
+
+<script src="./js/navbar.js"></script>
+</body>
+</html>
