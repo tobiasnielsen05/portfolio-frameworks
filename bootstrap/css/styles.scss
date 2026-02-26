@@ -11,11 +11,18 @@ $link-decoration: none;
 // 4. Include any default map overrides here
 $custom-colors: (
 	"textcolor": #E5E7EB,
+	"textmuted": #9CA3AF,
+	"textcolor": #3B82F6,
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 @import "bootstrapComponents";
+
+
+$primary: #0B0F19;
+$secondary: #111827;
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 // 5. Du kan lave styling her...
 
